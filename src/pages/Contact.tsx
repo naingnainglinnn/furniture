@@ -1,5 +1,5 @@
-import { Login } from "@/components"
-import Navigation from "@/home/Navigation"
+import { Footer, Login } from "@/components"
+import Navigation from "@/pages/Navigation"
 
 export default function Contact() {
   return (
@@ -7,6 +7,7 @@ export default function Contact() {
       <div>
         <Navigation />
         <Login />
+        <Footer />
       </div>
     </div>
   )

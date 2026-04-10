@@ -2,11 +2,8 @@ import { useEffect, useState } from "react"
 import img1 from "../assets/img1.png"
 import img2 from "../assets/img2.png"
 import img3 from "../assets/img3.png"
-import Navigation from "@/home/Navigation"
-import Categories from "@/home/Categories"
-import NewArrivals from "@/home/New-Arrivals"
-import Premium from "@/home/Premium"
-import Footer from "@/home/Footer"
+import Navigation from "@/pages/Navigation"
+import Footer from "@/pages/Footer"
 
 export default function Home() {
   const [current, setCurrent] = useState<number>(0)
@@ -56,9 +53,6 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-gray-100 text-gray-700 dark:bg-gray-900 dark:text-gray-300">
-        <Categories />
-        <NewArrivals />
-        <Premium />
         <Footer />
       </div>
     </div>
