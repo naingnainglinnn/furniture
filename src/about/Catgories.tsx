@@ -65,13 +65,6 @@ export default function Categories() {
             />
           </div>
         </div>
-        <div className="bg-muted/50 min-h-screen flex-1 rounded-xl md:min-h-min">
-          <img
-            src={img2}
-            alt="Furniture"
-            className="h-200 w-full rounded-2xl object-cover transition-transform duration-300"
-          />
-        </div>
       </div>
     </div>
   )

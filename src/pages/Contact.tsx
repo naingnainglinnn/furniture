@@ -1,5 +1,5 @@
 import { Footer, Login } from "@/components"
-import Navigation from "@/pages/Navigation"
+import Navigation from "@/main/Navigation"
 
 export default function Contact() {
   return (
